@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f6fb;
+  color: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+body header h1 {
+  color: #16c9ba;
+  font-family: "Lavishly Yours", cursive;
+  font-size: 4.5rem;
+}
+
+main section {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  font-family: "PT Serif", serif;
+}
+main section h2 {
+  margin-bottom: 12px;
+}
+main section div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.btn {
+  background: #12a819;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background: #f80000;
+}
+
+#mensaje, #aviso {
+  margin-top: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: #e7f0ff;
+  color: #1c3d99;
+}
+
+#mensaje.exito {
+  background: #d3f9d8;
+  color: #1b6b2c;
+}
+#mensaje.error {
+  background: #ffe3e3;
+  color: #a61e1e;
+}
+
+#contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.tarjeta {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 16px;
+}
+.tarjeta h3 {
+  margin-bottom: 8px;
+}
+.tarjeta p {
+  margin-bottom: 6px;
+}
+.tarjeta .btn {
+  margin-top: 8px;
+  margin-right: 6px;
+}
+
+/*# sourceMappingURL=styles.css.map */
